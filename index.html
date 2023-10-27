@@ -1,199 +1,247 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@400;700&display=swap"
-        rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link href="https://fonts.cdnfonts.com/css/museo" rel="stylesheet" />
     <link rel="stylesheet" href="/styles/style.css" />
-    <title>Lp Europa</title>
-</head>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    <title>Desconto na mão - Europa Purificadores</title>
+  </head>
 
-<body>
-
-
-
-
-    <main >
-
-        <div class="container main-container">
-            <div class="center-image container">
-                <img src="assets/background-2.svg" alt="">
-            </div>
-
-
-            <div class="logo" >
-                <img src="./assets/logo-europa.png" alt="Logo Europa" class="logo" />
-            </div>
-
-            <div class="main-background content-promotion">
-
-                <section class="flex main-section" >
-                    <div>
-
-                        <div class="flex align-center">
-                            <div class="main-content-info">
-                                <h1 class="title main-content">Desconto na mão!</h1>
-                                <p class="sub-title content-main">Falta pouco para você ganhar <span>10% OFF</span> na compra do
-                                    <span>refil da MOV!</span>
-                                </p>
-                                <p class="sub-title"><span>Garanta a qualidade Europa do começo ao fim!</span> </p>
-                            </div>
-                            <div >
-
-                                <img class="main-image" src="assets/filters.png">
-                            </div>
-                        </div>
-                        <p class="description description-position">*Promoção válida por tempo determinado. O cupom de
-                            desconto é de uso único
-                            e
-                            será enviado mediante
-                            preenchimento correto dos dados no formulário e válido apenas para a compra do refil MOV no
-                            site
-                            oficial ou lojas autorizadas Europa.</p>
-                    </div>
-                    <div class="form-box">
-                        <div class="form-container ">
-                            <h2 class="form-title">Preencha o formulário para receber o seu cupom via e-mail.</h2>
-                            <form class="form" method="post" id="form-promotion">
-                                <div class="form-label-2">
-                                    <div class="flex column ">
-                                        <label class="form-label" for="name">Nome completos</label>
-                                        <input class="form-input" type="text" placeholder="Gabriel" name="name"
-                                            id="name">
-                                    </div>
-
-                                    <div class="flex column ">
-                                        <label class="form-label" for="email">E-mail</label>
-                                        <input class="form-input" type="email" placeholder="email@email.com"
-                                            name="email" id="email">
-                                    </div>
-                                    <div class="flex column">
-                                        <label class="form-label" for="tel">Telefone</label>
-                                        <input class="form-input" type="tel" placeholder="41 9 9999-9999"
-                                            name="telefone" id="tel">
-                                    </div>
-                                </div>
-                                <div>
-                                    <input type="checkbox" name="checkbox" id="checkbox">
-                                    <label class="form-label-checkbox" type="checkbox">Aceito receber as comunicações da
-                                        Europa</label>
-
-                                </div>
-                                <div>
-                                    <button class="form-button"  id="button-form" type="submit">
-                                        Enviar
-                                    </button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-
-
-                </section>
-
-
-            </div>
+  <body>
+    <main>
+      <div class="container main-container">
+        <div class="center-image container">
+          <img src="assets/background-2.png" alt="" />
         </div>
+
+        <div class="logo">
+          <img
+            src="./assets/logo-europa.png"
+            alt="Logo Europa"
+            class="logo logo-image"
+          />
+        </div>
+
+        <div class="main-background content-promotion">
+          <section class="flex main-section">
+            <div class="main-section-info">
+              <div class="background-image">
+                <img
+                  src="/assets/background-mobile.png"
+                  alt=""
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+
+              <div class="flex align-center">
+                <div class="main-content-info">
+                  <h1 class="title main-content">Desconto na mão!</h1>
+                  <p class="sub-title content-main">
+                    Falta pouco para você ganhar <span>10% OFF</span> na compra
+                    do
+                    <span>refil da MOV!</span>
+                  </p>
+                  <p class="sub-title">
+                    <span>Garanta a qualidade Europa do começo ao fim!</span>
+                  </p>
+                </div>
+                <div class="box-filters">
+                  <img class="main-image" src="assets/filters.png" />
+                </div>
+              </div>
+              <p class="description description-position">
+                *Promoção válida por tempo determinado. O cupom de desconto é de
+                uso único e será enviado mediante preenchimento correto dos
+                dados no formulário e válido apenas para a compra do refil MOV
+                no site oficial ou lojas autorizadas Europa.
+              </p>
+            </div>
+            <div class="form-box">
+              <div class="form-container">
+                <h2 class="form-title">
+                  Preencha o formulário para receber o seu cupom via e-mail.
+                </h2>
+                <form class="form" method="post" id="form-promotion">
+                  <div class="form-label-2">
+                    <div class="flex column">
+                      <label class="form-label" for="name"
+                        >Nome completo</label
+                      >
+                      <input
+                        class="form-input"
+                        type="text"
+                        placeholder="Antonio Luiz"
+                        name="name"
+                        id="name"
+                        required
+                      />
+                    </div>
+
+                    <div class="flex column">
+                      <label class="form-label" for="email">E-mail</label>
+                      <input
+                        class="form-input"
+                        type="email"
+                        placeholder="email@email.com"
+                        name="email"
+                        id="email"
+                        required
+                      />
+                    </div>
+                    <div class="flex column">
+                      <label class="form-label" for="tel">Telefone</label>
+                      <input
+                        class="form-input"
+                        type="tel"
+                        placeholder="41 9 9999-9999"
+                        name="telefone"
+                        id="tel"
+                        maxlength="16"
+                        oninput="formatPhoneNumber(this)"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="input-box">
+                    <input
+                      type="checkbox"
+                      name="checkbox"
+                      id="checkbox"
+                      required
+                    />
+                    <label class="form-label-checkbox" for="checkbox"
+                      >Aceito receber as comunicações da Europa</label>
+                  </div>
+                  <div>
+                    <button class="form-button" id="button-form" type="submit">
+                      Enviar
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
     </main>
 
-    <footer class="footer ">
-
-        <div class="container ">
-
-            <div class="flex justify-center footer-icons footer-container">
-
-                <div class="footer-content ">
-
-                    <h2 class="footer-title ">Acompanhe nossas redes sociais!</h2>
-                    <p class="footer-subtitle">E saiba mais sobre o universo Europa.</p>
-                    <div class="flex column ">
-                        <a class="footer-links social-networks-icons"
-                            href="https://www.instagram.com/purificadoreseuropa_oficial/" target="_blank">
-                            <div class="flex ">
-                                <img src="assets/icon-instagram.png" alt="">
-                                <p>
-                                    purificadoreseuropa_oficial
-                                </p> 
-                            </div>
-                        </a>
-                        <a class="footer-links social-networks-icons"
-                            href="https://www.facebook.com/europapurificadores/?locale=pt_BR" target="_blank">
-                            <div class="flex ">
-                                <img src="assets/icon-facebook.png" alt="">
-                                <p>europapurificadores </p>
-                            </div>
-
-                        </a>
-
-
-                        <a class="footer-links social-networks-icons "
-                            href="https://www.linkedin.com/company/europa-purificadores/" target="_blank">
-                            <div class="flex">
-                                <img src="assets/icon-linkedin.png" alt="">
-                                <p>europa-purificadores</p>
-                            </div>
-                        </a>
-                    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="flex justify-center footer-icons footer-container ">
+          <div class="footer-content">
+            <h2 class="footer-title">Acompanhe nossas redes sociais!</h2>
+            <p class="footer-subtitle">E saiba mais sobre o universo Europa.</p>
+            <div class="flex column">
+              <a
+                class="footer-links social-networks-icons text-footer"
+                href="https://www.instagram.com/purificadoreseuropa_oficial/"
+                target="_blank"
+              >
+                <div class="flex">
+                  <img src="assets/icon-instagram.png" alt="" />
+                  <p>purificadoreseuropa_oficial</p>
                 </div>
-
-                <div class="flex card-content ">
-
-                    <div class="modal-card ">
-                        <div class="flex modal-icons">
-                            <img src="assets/icon-modal-europa.png" alt="logo europa">
-                            <div>
-                                <p class="modal-title">purificadoreseuropa_oficial</p>
-                                <p class="modal-subtitle">7 de set. de 2023</p>
-                            </div>
-                            <img src="assets/icon-modal-instagram.png" alt="logo instagam">
-                        </div>
-                        <a href="">
-                            <div>
-                                <img class="gif-cards" src="assets/gif-card-1.gif" alt="publicação 1">
-                            </div>
-                        </a>
-                    </div>
-                    <div class="modal-card">
-                        <div class="flex modal-icons">
-                            <img src="assets/icon-modal-europa.png" alt="logo europa">
-                            <div>
-                                <p class="modal-title">purificadoreseuropa_oficial</p>
-                                <p class="modal-subtitle">6 de abr. de 2023</p>
-                            </div>
-                            <img src="assets/icon-modal-instagram.png" alt="logo instagam" width="34px" height="34px">
-                        </div>
-                        <a href="">
-                            <div>
-                                <img class="gif-cards" src="assets/gif-card-2.gif" alt="publicação 1">
-                            </div>
-                        </a>
-                    </div>
+              </a>
+              <a
+                class="footer-links social-networks-icons text-footer"
+                href="https://www.facebook.com/europapurificadores/?locale=pt_BR"
+                target="_blank"
+              >
+                <div class="flex">
+                  <img src="assets/icon-facebook.png" alt="" />
+                  <p>europapurificadores</p>
                 </div>
+              </a>
 
-
+              <a
+                class="footer-links social-networks-icons text-footer"
+                href="https://www.linkedin.com/company/europa-purificadores/"
+                target="_blank"
+              >
+                <div class="flex">
+                  <img src="assets/icon-linkedin.png" alt="" />
+                  <p>europa-purificadores</p>
+                </div>
+              </a>
             </div>
+          </div>
 
+          <div class="flex card-content">
+            <div class="modal-card">
+              <div class="flex modal-icons">
+                <img src="assets/icon-modal-europa.png" alt="logo europa" />
+                <div>
+                  <p class="modal-title">purificadoreseuropa_oficial</p>
+                  <p class="modal-subtitle">7 de set. de 2023</p>
+                </div>
+                <img
+                  src="assets/icon-modal-instagram.png"
+                  alt="logo instagam"
+                  width="32px"
+                  height="34px"
+                />
+              </div>
+              <a href="">
+                <div>
 
-
-        </div>
-        <div class="background-footer">
-            <div class="container flex justify-center">
-                <p class="description-footer">Europa © 2022 - Todos os direitos reservados. Av. Hélio Ossamu
-                    Daikuara, 1445
-                    - Embu das Artes/SP.
-                    Brasfilter Ind. e Comércio Ltda. CNPJ: 53.437.406/0013-36</p>
+                        <a href="https://www.instagram.com/p/Cw5tcfONTVT/" target="_blank">
+                        
+                      
+                  <img
+                    class="gif-cards"
+                    src="assets/gif-card-1.gif"
+                    alt="publicação 1"
+                  />
+                </a>
+                </div>
+              </a>
             </div>
+            <div class="modal-card">
+              <div class="flex modal-icons">
+                <img src="assets/icon-modal-europa.png" alt="logo europa" />
+                <div>
+                  <p class="modal-title">purificadoreseuropa_oficial</p>
+                  <p class="modal-subtitle">6 de abr. de 2023</p>
+                </div>
+                <img
+                  src="assets/icon-modal-instagram.png"
+                  alt="logo instagam"
+                  width="32px"
+                  height="34px"
+                />
+              </div>
+              <a href="">
+                <div>
+                    <a href="https://www.instagram.com/p/CqshN-MobUh/" target="_blank">
+                      <img class="gif-cards" src="assets/gif-card-2.gif" alt="publicação 1" />
+                    </a>
+                  </div>
+              </a>
+            </div>
+          </div>
         </div>
-
+      </div>
+      <div class="background-footer">
+        <div class="container flex justify-center">
+          <p class="description-footer">
+            Europa © 2022 - Todos os direitos reservados. Av. Hélio Ossamu
+            Daikuara, 1445 - Embu das Artes/SP. Brasfilter Ind. e Comércio Ltda.
+            CNPJ: 53.437.406/0013-36
+          </p>
+        </div>
+      </div>
     </footer>
-</body>
-<script src="/scripts/script.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-
+  </body>
+  <script src="/scripts/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </html>
