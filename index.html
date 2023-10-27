@@ -74,9 +74,7 @@
                 <form class="form" method="post" id="form-promotion">
                   <div class="form-label-2">
                     <div class="flex column">
-                      <label class="form-label" for="name"
-                        >Nome completo</label
-                      >
+                      <label class="form-label" for="name">Nome completo</label>
                       <input
                         class="form-input"
                         type="text"
@@ -104,7 +102,7 @@
                         class="form-input"
                         type="tel"
                         placeholder="41 9 9999-9999"
-                        name="telefone"
+                        name="cel"
                         id="tel"
                         maxlength="16"
                         oninput="formatPhoneNumber(this)"
@@ -113,14 +111,10 @@
                     </div>
                   </div>
                   <div class="input-box">
-                    <input
-                      type="checkbox"
-                      name="checkbox"
-                      id="checkbox"
-                      required
-                    />
+                    <input type="checkbox" id="checkbox" required />
                     <label class="form-label-checkbox" for="checkbox"
-                      >Aceito receber as comunicações da Europa</label>
+                      >Aceito receber as comunicações da Europa</label
+                    >
                   </div>
                   <div>
                     <button class="form-button" id="button-form" type="submit">
@@ -128,6 +122,16 @@
                     </button>
                   </div>
                 </form>
+              </div>
+              <div class=" modal-container hide">
+                <h2 class="form-title">
+                  Preencha o formulário para receber o seu cupom via e-mail.
+                </h2>
+                <p class="modal-p-small">Você receberá o código do cupom de desconto por e-mail em breve.</p>
+                <p class="modal-p">Fique de olho na sua caixa de entrada ou no spam!</p>
+                <a class="form-button" href=""
+                  >Acesse nosso site e aproveite.</a
+                >
               </div>
             </div>
           </section>
@@ -137,7 +141,7 @@
 
     <footer class="footer">
       <div class="container">
-        <div class="flex justify-center footer-icons footer-container ">
+        <div class="flex justify-center footer-icons footer-container">
           <div class="footer-content">
             <h2 class="footer-title">Acompanhe nossas redes sociais!</h2>
             <p class="footer-subtitle">E saiba mais sobre o universo Europa.</p>
@@ -193,16 +197,16 @@
               </div>
               <a href="">
                 <div>
-
-                        <a href="https://www.instagram.com/p/Cw5tcfONTVT/" target="_blank">
-                        
-                      
-                  <img
-                    class="gif-cards"
-                    src="assets/gif-card-1.gif"
-                    alt="publicação 1"
-                  />
-                </a>
+                  <a
+                    href="https://www.instagram.com/p/Cw5tcfONTVT/"
+                    target="_blank"
+                  >
+                    <img
+                      class="gif-cards"
+                      src="assets/gif-card-1.gif"
+                      alt="publicação 1"
+                    />
+                  </a>
                 </div>
               </a>
             </div>
@@ -222,10 +226,17 @@
               </div>
               <a href="">
                 <div>
-                    <a href="https://www.instagram.com/p/CqshN-MobUh/" target="_blank">
-                      <img class="gif-cards" src="assets/gif-card-2.gif" alt="publicação 1" />
-                    </a>
-                  </div>
+                  <a
+                    href="https://www.instagram.com/p/CqshN-MobUh/"
+                    target="_blank"
+                  >
+                    <img
+                      class="gif-cards"
+                      src="assets/gif-card-2.gif"
+                      alt="publicação 1"
+                    />
+                  </a>
+                </div>
               </a>
             </div>
           </div>
@@ -241,6 +252,13 @@
         </div>
       </div>
     </footer>
+    <div class="toast">
+      <img src="/assets/error.svg" alt="Ícone de erro." id="toastIcon" />
+      <div class="toast-info">
+        <span id="apiStatus">Erro</span>
+        <p id="apiMessage"></p>
+      </div>
+    </div>
   </body>
   <script src="/scripts/script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
